@@ -1,7 +1,7 @@
 import { View, Text } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useColorScheme } from 'react-native';
-import { COLORS } from '../../../src/utils/theme';
+import { COLORS } from '../../src/utils/theme';
 
 export default function PortfolioTab() {
   const scheme = useColorScheme();

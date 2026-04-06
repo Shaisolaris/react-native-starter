@@ -1,8 +1,8 @@
 import React, { memo } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import { useTheme } from '../hooks/useTheme';
-import { formatCurrency, formatDate } from '../utils/format';
-import type { Transaction, TransactionType } from '../types';
+import { useTheme } from '../../hooks/useTheme';
+import { formatCurrency, formatDate } from '../../utils/format';
+import type { Transaction, TransactionType } from '../../types';
 
 const typeConfig: Record<TransactionType, { label: string; icon: string; colorKey: 'success' | 'danger' | 'brand' | 'warning' }> = {
   buy:        { label: 'Buy',        icon: '↑', colorKey: 'success' },

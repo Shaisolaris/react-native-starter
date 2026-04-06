@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, TouchableOpacity, useColorScheme } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useAuthStore } from '../../src/store/authStore';
-import { COLORS } from '../../../src/utils/theme';
+import { COLORS } from '../../src/utils/theme';
 
 const SETTINGS_ROWS = [
   { label: 'Profile & KYC',         icon: '👤' },
