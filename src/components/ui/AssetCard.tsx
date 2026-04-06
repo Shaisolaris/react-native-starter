@@ -6,9 +6,9 @@ import {
   StyleSheet,
   ViewStyle,
 } from 'react-native';
-import { useTheme } from '../hooks/useTheme';
-import { formatCurrency, formatPercent, formatShares } from '../utils/format';
-import type { Asset } from '../types';
+import { useTheme } from '../../hooks/useTheme';
+import { formatCurrency, formatPercent, formatShares } from '../../utils/format';
+import type { Asset } from '../../types';
 
 interface AssetCardProps {
   asset: Asset;
