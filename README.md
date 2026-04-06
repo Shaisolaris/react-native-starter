@@ -1,5 +1,15 @@
 # React Native Fintech App
 
+
+## Quick Start
+
+```bash
+git clone https://github.com/Shaisolaris/react-native-starter.git
+cd react-native-starter
+npm install --legacy-peer-deps
+npx expo start
+```
+
 Production-grade fintech mobile application built with **React Native**, **Expo**, and **TypeScript**. Portfolio tracking, real-time price simulation, transaction history, biometric authentication, and full dark mode — structured as a real client deliverable.
 
 ## Features
