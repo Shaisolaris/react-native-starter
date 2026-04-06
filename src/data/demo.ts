@@ -1,7 +1,6 @@
-export const DEMO_USER = { id: "1", name: "Demo User", email: "demo@example.com" };
+export const DEMO_MODE = true;
+export const DEMO_USER = { name: "Demo User", email: "demo@example.com" };
 export const DEMO_ITEMS = [
-  { id: "1", title: "Getting Started", description: "Welcome to the app", icon: "rocket" },
-  { id: "2", title: "Profile", description: "Manage your account", icon: "user" },
-  { id: "3", title: "Settings", description: "App preferences", icon: "settings" },
-  { id: "4", title: "Notifications", description: "Stay updated", icon: "bell" },
+  { id: "1", title: "Welcome to the app", description: "This is a demo item" },
+  { id: "2", title: "Getting Started", description: "Follow the quick start guide" },
 ];
