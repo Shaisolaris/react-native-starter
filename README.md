@@ -1,6 +1,9 @@
 # React Native Fintech App
 
 
+
+React Native Expo starter with TypeScript, file-based routing, theming system, authentication flow, and common UI components.
+
 ## Quick Start
 
 ```bash
