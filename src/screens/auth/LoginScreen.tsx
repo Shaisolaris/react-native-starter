@@ -21,7 +21,7 @@ const MOCK_USER: User = {
   id:            'user-1',
   firstName:     'Shai',
   lastName:      'Ali',
-  email:         'shai@solarisenterprise.com',
+  email:         'demo@solaris.studio',
   accountNumber: '4892031847624291',
   cashBalance:   12_480.50,
   kycVerified:   true,
@@ -33,7 +33,7 @@ export default function LoginScreen() {
   const { setUser } = useAuthStore();
   const { authenticate, checkAvailability } = useBiometrics();
 
-  const [email,    setEmail]    = useState('shai@solarisenterprise.com');
+  const [email,    setEmail]    = useState('demo@solaris.studio');
   const [password, setPassword] = useState('');
   const [loading,  setLoading]  = useState(false);
   const [bioType,  setBioType]  = useState<string | null>(null);
