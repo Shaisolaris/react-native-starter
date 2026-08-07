@@ -20,7 +20,7 @@ import type { User } from '../../types';
 const MOCK_USER: User = {
   id:            'user-1',
   firstName:     'Shai',
-  lastName:      'Ali',
+  lastName:      'A',
   email:         'demo@solaris.studio',
   accountNumber: '4892031847624291',
   cashBalance:   12_480.50,
